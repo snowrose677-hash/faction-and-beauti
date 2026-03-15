@@ -7,6 +7,8 @@
 <link rel="stylesheet" href="style.css">
 <!-- CSS -->
 <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
 </head>
 
 <body>
@@ -91,12 +93,41 @@
 
 </div>
 </section>
-
+<!-- Footer -->
 <footer>
+  <div class="footer-container">
+    <div class="footer-left">
+      <h3>Best Amazon Beauty Deals</h3>
+      <p>Find the latest deals on beauty and fashion products!</p>
+    </div>
 
-<p>© 2026 Best Amazon Beauty Deals</p>
+    <div class="footer-center">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#productList">Products</a></li>
+        <li><a href="https://amazon.com" target="_blank">Amazon</a></li>
+        <li><a href="#search">Search</a></li>
+      </ul>
+    </div>
 
+    <div class="footer-right">
+      <h4>Follow Us</h4>
+      <div class="social-icons">
+        <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="http://x.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <p class="footer-bottom">© 2026 Best Amazon Beauty Deals. All Rights Reserved.</p>
 </footer>
+
+<!-- Font Awesome CDN -->
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+
+   
 
 <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
