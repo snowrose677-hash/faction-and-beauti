@@ -3,10 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best  Deals</title>
+<title>Best Deals</title>
+
 <link rel="stylesheet" href="style.css">
-<!-- CSS -->
-<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 
 </head>
@@ -14,90 +13,76 @@
 <body>
 
 <header>
-
 <h1>🔥 Best Deals</h1>
-
 <input type="text" id="search" placeholder="Search beauty product...">
-
 </header>
 
 <section class="products" id="productList">
 
 <div class="card">
-
 <img src="download.jpg" alt="Eye Shadow">
-
 <h3>Eye Shadow</h3>
-
 <p>$29</p>
-
 <a href="https://amazon.com" target="_blank">
 <button>Buy on Amazon</button>
 </a>
-
 </div>
 
 <div class="card">
-
 <img src="dress.jpg" alt="Dress">
-
 <h3>Fashion Dress</h3>
-
 <p>$49</p>
-
 <a href="https://amazon.com" target="_blank">
 <button>Buy on Amazon</button>
 </a>
-
 </div>
 
 <div class="card">
-
 <img src="lipstick.jpg" alt="Lipstick">
-
 <h3>Luxury Lipstick</h3>
-
 <p>$19</p>
-
 <a href="https://amazon.com" target="_blank">
 <button>Buy on Amazon</button>
 </a>
-
 </div>
 
 <div class="card">
-
 <img src="handbag.jpg" alt="handbags">
-
 <h3>Luxury Handbags</h3>
-
 <p>$39</p>
-
 <a href="https://amazon.com" target="_blank">
 <button>Buy on Amazon</button>
 </a>
-
 </div>
 
 <div class="card">
-
 <img src="shoes.jpg" alt="Shoes">
-
-<h3>Luxury shoes</h3>
-
+<h3>Luxury Shoes</h3>
 <p>$29</p>
-
 <a href="https://amazon.com" target="_blank">
 <button>Buy on Amazon</button>
 </a>
-<a data-pin-do="embedBoard" href="https://pin.it/4RTE95nwA"></a>
-
-<script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
 </div>
+
 </section>
+
+<!-- 🔥 Pinterest Section (IMPORTANT: card ke bahar) -->
+<section style="padding:20px; text-align:center;">
+  <h2>📌 Our Pinterest Board</h2>
+
+  <!-- Yahan apna ORIGINAL Pinterest board link daalo -->
+  <a data-pin-do="embedBoard" 
+     href="https://www.pinterest.com/YOUR_USERNAME/YOUR_BOARD/">
+  </a>
+</section>
+
+<!-- Pinterest Script (sirf 1 dafa body ke end me) -->
+<script async defer src="https://assets.pinterest.com/js/pinit.js"></script>
+
 <!-- Footer -->
 <footer>
   <div class="footer-container">
+
     <div class="footer-left">
       <h3>Best Amazon Beauty Deals</h3>
       <p>Find the latest deals on beauty and fashion products!</p>
@@ -117,20 +102,15 @@
       <div class="social-icons">
         <a href="https://facebook.com"><i class="fab fa-facebook-f"></i></a>
         <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
-        <a href="http://x.com"><i class="fab fa-twitter"></i></a>
+        <a href="https://x.com"><i class="fab fa-twitter"></i></a>
         <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
       </div>
     </div>
+
   </div>
 
   <p class="footer-bottom">© 2026 Best Amazon Beauty Deals. All Rights Reserved.</p>
 </footer>
 
-<!-- Font Awesome CDN -->
-<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-
-   
-
-<script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
