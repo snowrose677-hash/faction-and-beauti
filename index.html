@@ -1,99 +1,133 @@
+
 <!DOCTYPE html>
-<html>
-    <head> 
-        <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Best Deals</title> <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    </head> 
-    <body> 
-        <header> 
-            <h1>🔥 Best Deals</h1>
-            <input type="text" id="search" placeholder="Search beauty product..."> 
-        </header> <section class="products" id="productList">
-            <div class="card">
-                <img src="download.jpg" alt="Eye Shadow">
-                <h3>Eye Shadow</h3> 
-                <p>$29</p>
-                <a href="https://amazon.com" target="_blank">
-                    <button>Buy on Amazon</button>
-                </a>
-            </div> 
-            <div class="card"> 
-                <img src="dress.jpg" alt="Dress">
-                <h3>Fashion Dress</h3>
-                <p>$49</p>
-                <a href="https://amazon.com" target="_blank">
-                    <button>Buy on Amazon</button> 
-                </a> </div> <div class="card">
-                    <img src="lipstick.jpg" alt="Lipstick">
-                    <h3>Luxury Lipstick</h3>
-                    <p>$19</p> 
-                    <a href="https://amazon.com" target="_blank">
-                        <button>Buy on Amazon</button>
-                    </a>
-                </div> 
-            <div class="card"> 
-                <img src="handbag.jpg" alt="Handbags">
-                <h3>Luxury Handbags</h3> 
-                <p>$39</p> 
-                <a href="https://amazon.com" target="_blank">
-                    <button>Buy on Amazon</button> 
-                </a>
-            </div> 
-            <div class="card">
-                <img src="shoes.jpg" alt="Shoes"> 
-                <h3>Luxury Shoes</h3> 
-                <p>$29</p>
-                <a href="https://amazon.com" target="_blank">
-                    <button>Buy on Amazon</button> 
-                </a> 
-            </div>
-        </section> 
-        <!-- Pinterest Script -->
-        <section style="padding:40px; text-align:center; background:#f8f9ff; border-radius:20px; margin:30px;"> 
-            <h2 style="font-size:28px;">
-                📌 Trending on Pinterest</h2>
-            <p style="color:gray;">Latest beauty & fashion inspiration</p> 
-            <div style="display:flex; justify-content:center;"> 
-               
-                <a data-pin-do="embedUser" href="https://www.pinterest.com/gulx3754/">
-                </a> 
-        </section> 
-        <script async defer src="https://assets.pinterest.com/js/pinit.js">
-            
-        </script>
-        <!-- Footer --> <footer> <div class="footer-container"> 
-            <div class="footer-left"> 
-                <h3>Best Amazon Beauty Deals</h3>
-                <p>Find the latest deals on beauty and fashion products!</p>
-            </div> 
-            <div class="footer-center"> 
-                <h4>Quick Links</h4>
-                <ul> 
-                    <li>
-                        <a href="#productList">Products</a></li>
-                    <li><a href="https://amazon.com" target="_blank">Amazon</a></li>
-                    <li><a href="#search">Search</a></li>
-                </ul> </div> <div class="footer-right"> 
-                    <h4>Follow Us</h4>
-                    <div class="social-icons">
-                        <a href="https://facebook.com">
-                            <i class="fab fa-facebook-f">
-                                
-                            </i></a> <a href="https://instagram.com">
-                                <i class="fab fa-instagram">
-                                    
-                                </i></a> <a href="https://x.com"><i class="fab fa-twitter">
-                                    
-                                </i></a> <a href="https://youtube.com">
-                                    <i class="fab fa-youtube">
-                                        
-                                    </i>
-                                </a> 
-                    </div>
-                </div> 
-        </div>
-            <p class="footer-bottom">© 2026 Best Deals. All Rights Reserved.</p> 
-        </footer> 
-    </body> 
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fashion And Beauty</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+<header>
+  <div class="search-box">
+    <input type="search" id="searchInput" placeholder="Search products...">
+    <i class="fa-solid fa-magnifying-glass"></i>
+  </div>
+
+  <h1>❤️ Fashion And Beauty ❤️</h1>
+
+  <div class="top-bar">
+    <div class="counter">❤️ Favorites: <span id="favCount">0</span></div>
+    <div class="counter">🛒 Cart: <span id="cartCount">0</span></div>
+  </div>
+</header>
+
+<h2 class="title">✨ Recommended Products</h2>
+
+<p style="text-align:center; color:#555;">
+💖 Trending beauty & fashion items | Limited deals available!
+</p>
+<p style="text-align:center; color:#666;">
+✨ Best Fashion & Beauty Deals | Affiliate Picks | Updated Daily
+</p>
+<p id="message"></p>
+
+<section class="container">
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card">
+    <i class="fa-regular fa-heart favorite"></i>
+    <i class="fa-solid fa-spray-can-sparkles icon"></i>
+    <h2>Jasmine & Mint Spray</h2>
+    <p>Stay fresh all day with this natural scent.</p>
+    <img src="Gemini_Generated_Image_affdohaffdohaffd.png">
+
+    <div class="btns">
+      <button class="cart-btn">Add to Cart</button>
+      <a href="https://temu.to/k/ewqqea8j29d" class="btn">🔥 Buy Now</a>
+    </div>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card">
+    <i class="fa-regular fa-heart favorite"></i>
+    <i class="fa-solid fa-gem icon"></i>
+    <h2>Silver Perfume Balm</h2>
+    <p>Long-lasting solid perfume for daily use.</p>
+    <img src="Gemini_Generated_Image_hil8yghil8yghil8.png">
+
+    <div class="btns">
+      <button class="cart-btn">Add to Cart</button>
+      <a href="https://temu.to/k/eurkdpbchbw" class="btn">🔥 Buy Now</a>
+    </div>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card">
+    <i class="fa-regular fa-heart favorite"></i>
+    <i class="fa-solid fa-heart icon"></i>
+    <h2>Charming Poison</h2>
+    <p>Perfect for parties & special moments.</p>
+    <img src="Gemini_Generated_Image_tykjv4tykjv4tykj.png">
+
+    <div class="btns">
+      <button class="cart-btn">Add to Cart</button>
+      <a href="https://temu.to/k/e0p48aa1xs3" class="btn">🔥 Buy Now</a>
+    </div>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card">
+    <i class="fa-regular fa-heart favorite"></i>
+    <i class="fa-solid fa-star icon"></i>
+    <h2>Angel Perfume</h2>
+    <p>Floral fruity scent for confidence & charm.</p>
+    <img src="Gemini_Generated_Image_768es4768es4768e_1.png">
+
+    <div class="btns">
+      <button class="cart-btn">Add to Cart</button>
+      <a href="https://temu.to/k/e35ikoad40y" class="btn">🔥 Buy Now</a>
+    </div>
+  </div>
+
+</section>
+
+<!-- CLOTHES SECTION -->
+<h2 class="title">👗 Clothes Collection</h2>
+
+<section class="container">
+
+  <div class="product-card">
+    <i class="fa-regular fa-heart favorite"></i>
+    <h2>Autumn Chic Top</h2>
+    <p>Elegant floral top for winter & autumn fashion.</p>
+    <img src="Gemini_Generated_Image_ertevcertevcerte_1.png">
+
+    <div class="btns">
+      <button class="cart-btn">Add to Cart</button>
+      <a href="https://temu.to/k/ejh2vzyrk4n" class="btn">🔥 Buy Now</a>
+    </div>
+  </div>
+
+  <div class="product-card">
+    <i class="fa-regular fa-heart favorite"></i>
+    <h2>Rose & butterfly Top</h2>
+    <p>Red Rose & butterfly motif fashionable split-panel Design soft long sleeves for Autumn</p>
+    <img src="Gemini_Generated_Image_gbhbe0gbhbe0gbhb_1.png" alt="Rose & butterfly Top">
+
+       <div class="btns">
+      <button class="cart-btn">Add to Cart</button>
+      <a href="https://temu.to/k/e4ir4zmdm6f" class="btn">🔥 Buy Now</a>
+    </div>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
 </html>
